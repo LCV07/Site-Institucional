@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#fff8ea"/>
+  <rect x="40" y="40" width="1120" height="720" rx="12" fill="#fff" stroke="#ffe8b3"/>
+  <text x="50%" y="50%" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#9a6b2a" text-anchor="middle" dominant-baseline="middle">Portal — Placeholder</text>
+</svg>

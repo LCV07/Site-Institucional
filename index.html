@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Institucional — Empresa Exemplo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Empresa Exemplo</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav id="main-nav" class="main-nav" role="navigation">
+        <ul>
+          <li><a href="index.html#home">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#team">Equipe</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>Soluções que transformam negócios</h1>
+        <p>Fornecemos consultoria, tecnologia e suporte para empresas que buscam crescer com sustentabilidade e eficiência.</p>
+        <p class="cta-row">
+          <a class="btn primary" href="#contact">Solicitar Proposta</a>
+          <a class="btn ghost" href="#services">Nossos Serviços</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Sobre a Empresa</h2>
+        <p>Fundada em 2010, a Empresa Exemplo atua na integração entre estratégia e tecnologia. Nossa abordagem une metodologias ágeis a soluções personalizadas, sempre com foco em resultados mensuráveis.</p>
+        <div class="stats-grid">
+          <div class="stat"><strong>12</strong><span>Anos de mercado</span></div>
+          <div class="stat"><strong>150+</strong><span>Projetos entregues</span></div>
+          <div class="stat"><strong>40</strong><span>Colaboradores</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Consultoria Estratégica</h3>
+            <p>Mapeamento de oportunidades, definição de roadmap e acompanhamento executivo para implementação.</p>
+          </article>
+          <article class="card">
+            <h3>Desenvolvimento de Software</h3>
+            <p>Plataformas web e mobile sob medida, com foco em escalabilidade e experiência do usuário.</p>
+          </article>
+          <article class="card">
+            <h3>Suporte e Operações</h3>
+            <p>Operação gerenciada, monitoramento e melhoria contínua para manter seus serviços sempre disponíveis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2>Portfólio</h2>
+        <div class="portfolio-grid">
+          <figure class="work"><img src="assets/images/placeholder-1.svg" alt="Projeto 1"><figcaption>Sistema de gestão integrado</figcaption></figure>
+          <figure class="work"><img src="assets/images/placeholder-2.svg" alt="Projeto 2"><figcaption>Portal de atendimento ao cliente</figcaption></figure>
+          <figure class="work"><img src="assets/images/placeholder-3.svg" alt="Projeto 3"><figcaption>App móvel para vendas</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section alt">
+      <div class="container">
+        <h2>Equipe</h2>
+        <div class="team-grid">
+          <div class="member">
+            <img src="assets/images/person-1.svg" alt="Maria Silva">
+            <h4>Maria Silva</h4>
+            <p>CEO & Fundadora</p>
+          </div>
+          <div class="member">
+            <img src="assets/images/person-2.svg" alt="João Pereira">
+            <h4>João Pereira</h4>
+            <p>CTO</p>
+          </div>
+          <div class="member">
+            <img src="assets/images/person-3.svg" alt="Ana Costa">
+            <h4>Ana Costa</h4>
+            <p>Head de Operações</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato para uma avaliação gratuita do seu projeto.</p>
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <label for="name">Nome</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-row">
+            <button class="btn primary" type="submit">Enviar mensagem</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Empresa Exemplo. Todos os direitos reservados.</p>
+      <nav class="footer-nav">
+        <a href="#privacy">Política de Privacidade</a>
+        <a href="#terms">Termos de Uso</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
