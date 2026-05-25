@@ -20,3 +20,5 @@ Se quiser, posso:
 - Adicionar páginas internas (sobre, serviços, contato)
 - Preparar deploy (GitHub Pages) com instruções
 
+Live Demo
+    https://lcv-institucional.netlify.app/
